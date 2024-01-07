@@ -137,4 +137,10 @@ main{
     font-size: 1.25vw;
     font-weight: 700;
     background: #F00;
+    transition: all 0.2s;
+}#content > #address-time > .container-noshrink > button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}#content > #address-time > .container-noshrink > button:active{
+    opacity: 0.5;
 }
