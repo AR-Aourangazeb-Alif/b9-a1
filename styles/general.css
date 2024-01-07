@@ -4,7 +4,10 @@
 }
 
 .container{
+    /* width: 85%;
+    height: 85.7%; */
     width: 85%;
-    height: 85.7%;
+    height: 80%;
     border-radius: 2%;
+    transition: all 0.3s;
 }

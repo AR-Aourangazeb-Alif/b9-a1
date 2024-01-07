@@ -84,6 +84,7 @@ main{
     font-size: 1.125vw;
     font-weight: 400;
     line-height: 1.875vw;
+    font-family: Inter;
 }
 #content > #welcome-to-midnight-party > .container > #welcome > button{
     margin-top: 1.7vw;
@@ -93,5 +94,23 @@ main{
     text-align: center;
     font-size: 1.25vw;
     font-weight: 700;
+    font-family: Inter;
     text-transform: uppercase;
+}#content > #welcome-to-midnight-party > .container > #welcome > button:hover{
+    cursor: pointer;
+}
+
+
+#content > #address-time{
+    80vh
+}
+#content > #address-time > .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#content > #address-time p{
+    font-family: Inter;
+    font-size: 2vw;
 }

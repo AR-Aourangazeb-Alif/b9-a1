@@ -1,0 +1,22 @@
+#content > #welcome-to-midnight-party > .container > #welcome > button::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #FFF;
+    display: block;
+    transition: all 0.3s;
+}#content > #welcome-to-midnight-party > .container > #welcome > button:hover::after{
+    width: 100%;
+}
+
+
+.container:hover{
+    cursor: pointer;
+    width: 80%;
+    height: 75%;
+}
+
+
+img:hover{
+    cursor: pointer;
+}
