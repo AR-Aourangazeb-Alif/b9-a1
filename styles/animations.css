@@ -20,3 +20,15 @@
 img:hover{
     cursor: pointer;
 }
+
+#content > #second-section > h1:hover{
+    cursor: pointer;
+    font-size: 6vw;
+}
+#content > #second-section > img:hover{
+    transform: translate(0px, -10px);
+}
+
+#content > #coming-soon > .bonus-section > #circular-photo > img:hover{
+    width: 46vh;
+}
