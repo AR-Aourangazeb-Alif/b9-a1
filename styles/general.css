@@ -2,3 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+
+.container{
+    width: 85%;
+    height: 85.7%;
+    border-radius: 2%;
+}
