@@ -1,0 +1,40 @@
+header{
+    height: 97.6vh;
+    width: 98.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+}
+
+#banner{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    background-size: cover;
+    background-position: center;
+
+    width: 85%;
+    height: 85.7%;
+    border-radius: 1%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner > #banner-texts{
+    width: 60%;
+}
+#banner > #banner-texts > h1{
+    color: #FFF;
+    line-height: 5vw;
+}
+
+#banner > #banner-texts > #banner-title > #new-year-wish{
+    font-size: 2vw;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+#banner > #banner-texts > #banner-title > #celebration{
+    font-size: 4.5vw;
+    font-weight: 900;
+}
