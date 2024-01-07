@@ -1,0 +1,39 @@
+#content{
+    display: flex;
+    flex-direction: column;
+    padding: 3.5vw 0vw 7vw 0vw;
+}
+
+#content > #second-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    gap: 3vw;
+}
+
+#content > #second-section > h1{
+    color: #F00;
+    font-size: 5.5vw;
+    font-weight: 700;
+}
+
+#content > #second-section > p{
+    line-height: 3.5vw;
+}
+#content > #second-section > p > #holdiday-deals{
+    color: #F00;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+#content > #second-section > p > #all-catagories{
+    color: #070211;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+#content > #second-section > img{
+    width: 50vw;
+}
