@@ -1,5 +1,5 @@
 #content > #coming-soon{
-    height: 50vh;
+    height: 25vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,8 +12,8 @@
     height: 80%;
 }
 #content > #coming-soon > .bonus-section > #circular-photo{
-    height: 50vh;
-    width: 50vh;
+    height: 23vw;
+    width: 23vw;
     border-radius: 50%;
     border-style: solid;
     border-width: 1vw;
@@ -24,7 +24,7 @@
     transition: all 0.2s;
 }
 #content > #coming-soon > .bonus-section > #circular-photo > img{
-    width: 42vh;
+    width: 20vw;
     transition: all 0.2s;
 }
 
