@@ -21,10 +21,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s;
 }
 #content > #coming-soon > .bonus-section > #circular-photo > img{
     width: 42vh;
-    transition: all 0.4s;
+    transition: all 0.2s;
 }
 
 #content > #coming-soon > .bonus-section > .writings{
