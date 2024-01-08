@@ -26,7 +26,7 @@ img:hover{
     font-size: 6vw;
 }
 #content > #second-section > img:hover{
-    transform: translate(0px, -10px);
+    transform: translate(0px, -1vw);
 }
 
 #content > #coming-soon > .bonus-section > #circular-photo:hover{
@@ -37,8 +37,18 @@ img:hover{
     width: 21vw;
 }
 
+#content > #portfolio > .container-portfolio > .products > div:hover{
+    cursor: pointer;
+    transform: translate(0px, -1vw);
+    box-shadow: 0.3125vw 0.3125vw 0.625vw rgba(41, 40, 40, 0.459);
+}
+
 #content > #newsletter > .container-noshrink > #newsletter-email > button:hover{
     box-shadow: 0px 0px 0.6vw rgba(255, 0, 0, 0.692);
 }#content > #newsletter > .container-noshrink > #newsletter-email > button:active{
     opacity: 0.8;
+}
+
+#footer-container > #social-medias > img:hover{
+    transform: translate(0, -0.7vw);
 }

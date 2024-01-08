@@ -30,10 +30,6 @@
     height: 28.125vw;
     border-radius: 3%;
     transition: all 0.2s;
-}#content > #portfolio > .container-portfolio > .products > div:hover{
-    cursor: pointer;
-    transform: translate(0px, -10px);
-    box-shadow: 0.3125vw 0.3125vw 0.625vw rgba(41, 40, 40, 0.459);
 }
 
 #product-1{
