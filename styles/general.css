@@ -19,3 +19,22 @@
 }.container-noshrink:hover{
     cursor: pointer;
 }
+
+.portfolio-newsletter-texts{
+    font-family: Inter;
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 2vw;
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.main-heading{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+button, p, h1, h2{
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+#content > #newsletter{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content > #newsletter > .container-noshrink{
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.375vw;
+}
+
+#content > #newsletter > .container-noshrink > img{
+    width: 8vw;
+    margin-bottom: 1.125vw;
+}
+
+#content > #newsletter > .container-noshrink > p{
+    width: 68%;
+}
+
+#content > #newsletter > .container-noshrink > #newsletter-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.625vw;
+}
+#content > #newsletter > .container-noshrink > #newsletter-email > input{
+    padding: 1.5625vw 0px 1.5625vw 1.875vw;
+    width: 27.375vw;
+    border-top-left-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-weight: 400;
+    background-color: #fff;
+    outline: none;
+}
+
+#content > #newsletter > .container-noshrink > #newsletter-email > button{
+    padding: 1.5vw 3.5vw;
+    border-top-right-radius: 4vw;
+    border-bottom-right-radius: 4vw;
+    border: none;
+    background-color: #F00;
+    color: #fff;
+    font-family: Inter;
+    font-size: 1.25vw;
+    font-weight: 600;
+    transition: all 0.2s;
+}

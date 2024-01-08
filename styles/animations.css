@@ -32,3 +32,9 @@ img:hover{
 #content > #coming-soon > .bonus-section > #circular-photo > img:hover{
     width: 45vh;
 }
+
+#content > #newsletter > .container-noshrink > #newsletter-email > button:hover{
+    box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.623);
+}#content > #newsletter > .container-noshrink > #newsletter-email > button:active{
+    opacity: 0.8;
+}

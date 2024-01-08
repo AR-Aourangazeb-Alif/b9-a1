@@ -17,8 +17,6 @@
 
 #content > #second-section > p{
     line-height: 3.5vw;
-}#content > #second-section > p:hover{
-    cursor: pointer;
 }
 #content > #second-section > p > #holdiday-deals{
     color: #F00;
