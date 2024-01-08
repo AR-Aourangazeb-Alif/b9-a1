@@ -49,6 +49,9 @@ footer p{
 }
 #footer-container > #social-medias > img{
     width: 4vw;
+    transition: all 0.3s;
+}#footer-container > #social-medias > img:hover{
+    transform: translate(0,-8px);
 }
 
 hr{
