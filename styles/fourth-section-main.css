@@ -1,0 +1,69 @@
+#content > #coming-soon{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content > #coming-soon > .bonus-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 80%;
+}
+#content > #coming-soon > .bonus-section > #circular-photo{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1vw;
+    border-color: #F00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content > #coming-soon > .bonus-section > #circular-photo > img{
+    width: 42vh;
+    transition: all 0.4s;
+}
+
+#content > #coming-soon > .bonus-section > .writings{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+#content > #coming-soon > .bonus-section > .writings > h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 500;
+}
+#content > #coming-soon > .bonus-section > .writings > #new-best-offer{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+#content > #coming-soon > .bonus-section > .writings > #year{
+    color: #F00;
+    font-family: Inter;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+#content > #coming-soon > .bonus-section > .writings > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 1.15vw;
+    font-weight: 400;
+    line-height: 2vw;
+}
+
+#content > #coming-soon > .bonus-section > .writings > img{
+    margin-top: 1vw;
+    width: 8vw;
+}

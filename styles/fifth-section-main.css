@@ -1,0 +1,34 @@
+#content > #holiday-sales{
+    display: flex;
+    flex-direction: column;
+    gap: 1.75vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vw;
+}
+#content > #holiday-sales > .headings > h2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-bottom: 1vw;
+}
+#content > #holiday-sales > .headings > h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 4.5vw;
+    font-weight: 900;
+}
+#content > #holiday-sales > .headings > h1 > span{
+    color: #F00;
+}
+
+#content > #holiday-sales > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 1.25vw;
+    font-weight: 500;
+    line-height: 2vw;
+    width: 65%;
+}
