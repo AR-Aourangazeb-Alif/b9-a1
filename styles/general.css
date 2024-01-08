@@ -8,14 +8,14 @@
     height: 85.7%; */
     width: 85%;
     height: 80%;
-    border-radius: 2%;
+    border-radius: 1vw;
     transition: all 0.3s;
 }
 
 .container-noshrink{
     width: 85%;
     height: 80%;
-    border-radius: 2%;
+    border-radius: 1vw;
 }.container-noshrink:hover{
     cursor: pointer;
 }
