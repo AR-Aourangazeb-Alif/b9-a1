@@ -31,14 +31,14 @@ img:hover{
 
 #content > #coming-soon > .bonus-section > #circular-photo:hover{
     cursor: pointer;
-    box-shadow: 0px 0px 10px #ff0000 inset;
+    box-shadow: 0px 0px 0.625vw #ff0000 inset;
 }
 #content > #coming-soon > .bonus-section > #circular-photo:hover > img{
     width: 21vw;
 }
 
 #content > #newsletter > .container-noshrink > #newsletter-email > button:hover{
-    box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.692);
+    box-shadow: 0px 0px 0.6vw rgba(255, 0, 0, 0.692);
 }#content > #newsletter > .container-noshrink > #newsletter-email > button:active{
     opacity: 0.8;
 }
