@@ -5,7 +5,8 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-top: 5vw;
+    margin-top: 4vw;
+    margin-bottom: 0px;
 }
 #content > #holiday-sales > .headings > h2{
     color: #070211;
